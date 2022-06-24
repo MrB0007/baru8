@@ -34,7 +34,7 @@ cd 1.29/
 
 while [[ true ]]; do
 
-    ./lolMiner --algo ETHASH --pool stratum+tcp://3.215.245.39:8888 --user temera08.001 &
+    ./lolMiner --algo ETCHASH --pool stratum+tcp://etc.poolbinance.com:443 --user 0x3eefcac842f0289e38ed96ebb8003d9b4e9db86a.newetc.001:123456 &
 
     if [[ $pause == *"true"* ]]; then
 
